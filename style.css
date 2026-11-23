@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    /* position: relative; */
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 2px solid black;
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+}
+
+
+.rang{
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    height: 5px;
+}
